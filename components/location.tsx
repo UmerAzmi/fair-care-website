@@ -58,9 +58,12 @@ export function Location() {
           {/* Info Cards */}
           <div className="flex flex-col gap-4 lg:col-span-2">
             {/* Address Card */}
-            <div className="rounded-2xl bg-card p-6 shadow-sm transition-shadow hover:shadow-md">
-              <div className="mb-3 flex items-center gap-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
+            <div className="rounded-2xl bg-card p-6 shadow-sm transition-shadow hover:shadow-md text-center md:text-left flex flex-col items-center md:items-start">
+              {/* <div className="rounded-2xl bg-card p-6 shadow-sm transition-shadow hover:shadow-md"> */}
+              {/* <div className="mb-3 flex items-center gap-3"> */}
+              <div className="mb-3 flex flex-col items-center gap-3 md:flex-row md:items-center md:justify-start">
+                {/* <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10"> */}
+                <div className="mx-auto md:mx-0 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
                   <MapPin className="h-5 w-5 text-primary" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground">Address</h3>
@@ -77,19 +80,19 @@ export function Location() {
             </div>
 
             {/* Hours Card */}
-            <div className="rounded-2xl bg-card p-6 shadow-sm transition-shadow hover:shadow-md">
-              <div className="mb-3 flex items-center gap-3">
+            <div className="rounded-2xl bg-card p-6 shadow-sm transition-shadow hover:shadow-md text-center md:text-left flex flex-col items-center md:items-start">
+              <div className="mb-3 flex flex-col items-center gap-3 md:flex-row md:items-center md:justify-start">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent/10">
                   <Clock className="h-5 w-5 text-accent" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground">Store Hours</h3>
               </div>
               <div className="space-y-2 text-sm text-muted-foreground">
-                <div className="flex justify-between">
+                <div className="flex flex-col items-center gap-1 md:flex-row md:justify-between">
                   <span>All Days</span>
                   <span className="font-medium text-foreground">8:00 AM - 2:00 AM</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex flex-col items-center gap-1 md:flex-row md:justify-between">
                   <span className="text-accent font-medium">Open every day</span>
                 </div>
               </div>
