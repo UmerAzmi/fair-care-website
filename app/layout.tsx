@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Fair Care Medical & General Store | Jogeshwari West, Mumbai',
+  title: 'Fair Care Medical & General Store',
   description: 'Fair Care Medical & General Store - Your trusted neighborhood pharmacy in Jogeshwari West, Mumbai. We offer prescription medicines, OTC drugs, healthcare products, and general store items with personalized care.',
   generator: 'v0.app',
   icons: {
