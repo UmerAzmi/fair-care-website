@@ -87,4 +87,5 @@ styles/ → Global styling
 ## Author
 
 Developed by: Umer Azmi
+
 Freelance Web Developer
