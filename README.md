@@ -4,13 +4,25 @@ A responsive business website developed for a local medical store as a freelance
 
 The website provides store information, services, contact details, and location access for customers. It is designed to help customers quickly find medicines, contact the store, and visit the shop.
 
+
+<sub>
+Maintained by: 
+Umer Azmi — Software & Web Developer from Mumbai, India · 
+<a href="https://github.com/UmerAzmi">GitHub Profile</a>
+</sub>
+
 ---
 
 ## Live Website
-
-Current Live Demo: https://fair-care-website.vercel.app
-
+ 
+<div>
+<a href="https://fair-care-website.vercel.app" target="_blank" style="">
+  <img src="https://img.shields.io/badge/View-Live%20Demo-blue?style=for-the-badge">
+</a>
+<br><br>
+  
 *A custom domain will be connected soon.*
+</div>
 
 ---
 
